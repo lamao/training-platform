@@ -1,3 +1,10 @@
+#Start application
+1. git clone https://github.com/irkin333/test-project.git
+2. cd study
+3. npm install
+4. ng serve
+5. see the result on http://localhost:4200
+
 # Study
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
