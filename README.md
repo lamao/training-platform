@@ -1,4 +1,9 @@
-#Start application
+# Dependencies
+node js
+npm
+angular-cli 
+
+# Start application
 1. git clone https://github.com/irkin333/test-project.git
 2. cd study
 3. npm install
