@@ -1,0 +1,11 @@
+/*
+    .ng-untouched => .ng-touched - on focus out
+    .ng-pristine => .ng-dirty - field with value
+    .ng-valid => .ng-invalid - validation failed
+*/
+.ng-valid[required] {
+  border-bottom: 5px solid mediumseagreen;
+}
+.ng-invalid:not(form) {
+  border-bottom: 5px solid indianred;
+}

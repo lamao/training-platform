@@ -1,0 +1,50 @@
+nav {
+  top: 0;
+  position: fixed;
+  height: 100%;
+  width: 100px;
+  background: #fff;
+  z-index: 100;
+  ul.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    &>li {
+      height: 60px;
+      color: #e75753;
+      padding: 10px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      width: 100%;
+      a {
+        color: #e75753;
+        text-decoration: none;
+        line-height: 15px;
+        font-size: 10px;
+        font-weight: bold;
+        padding: 0;
+        &:hover {
+          background: none;
+        }
+      }
+      i {
+        font-size: 15px;
+        margin-bottom: 2px;
+        line-height: normal;
+      }
+      &:hover {
+        background: #ececec;
+      }
+    }
+  }
+  .dropdown-content {
+    margin-left: 100px;
+    li {
+      a {
+        color: #757575;
+      }
+    }
+  }
+}
