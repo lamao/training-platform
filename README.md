@@ -1,7 +1,7 @@
 # Dependencies
-node js
-npm
-angular-cli 
+`node`
+`npm`
+`angular-cli`
 
 # Start application
 1. git clone https://github.com/irkin333/test-project.git
