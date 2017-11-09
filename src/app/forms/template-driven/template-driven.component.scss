@@ -4,8 +4,8 @@
     .ng-valid => .ng-invalid - validation failed
 */
 .ng-valid[required] {
-  border-bottom: 5px solid mediumseagreen;
+  border-bottom: 2px solid mediumseagreen;
 }
 .ng-invalid:not(form) {
-  border-bottom: 5px solid indianred;
+  border-bottom: 2px solid indianred;
 }

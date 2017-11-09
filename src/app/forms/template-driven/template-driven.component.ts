@@ -2,6 +2,8 @@ import {Component, OnInit, AfterViewInit, ViewChild} from '@angular/core';
 import {User} from '../user.model';
 import {NgForm} from '@angular/forms';
 
+declare var $:any;
+
 @Component({
   moduleId: module.id,
   selector: 'app-template-driven',
@@ -36,6 +38,7 @@ export class TemplateDrivenComponent implements OnInit, AfterViewInit {
   ngOnInit() { }
 
   ngAfterViewInit() {
+    $('select').material_select();
     this.userForm.valueChanges.subscribe(data => this.onValueChanged(data));
   }
 
@@ -47,7 +50,6 @@ export class TemplateDrivenComponent implements OnInit, AfterViewInit {
     for (let field in this.formErrors) {
       this.formErrors[field] = '';
       let control = form.get(field);
-      console.log(control)
 
       if (control && control.dirty && !control.valid) {
         let message = this.validationMessages[field];
