@@ -1,14 +1,13 @@
-# Dependencies
+# Dependencies before start
 `node`
 `npm`
 `angular-cli`
 
 # Start application
 1. git clone https://github.com/irkin333/test-project.git
-2. cd study
-3. npm install
-4. ng serve
-5. see the result on http://localhost:4200
+2. npm install
+3. ng serve
+4. see the result on http://localhost:4200
 
 # Study
 
