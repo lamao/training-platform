@@ -7,6 +7,7 @@ import { FormsRoutingModule } from './forms/forms-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { LayoutComponent } from './layout/layout.component';
+import { InterfaceRoutingModule } from './interface/interface-routing.module';
 
 @NgModule({
   imports: [
@@ -17,7 +18,8 @@ import { LayoutComponent } from './layout/layout.component';
       path: '', redirectTo: 'home', pathMatch: 'full'
     }]),
     ReduxRoutingModule,
-    FormsRoutingModule
+    FormsRoutingModule,
+    InterfaceRoutingModule
   ],
   declarations: [
     AppComponent,
